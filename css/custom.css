@@ -1,0 +1,63 @@
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+
+body {
+	background-color: #535947;
+}
+
+.lead {
+	font-style: oblique;
+	font-size: 24px;
+}
+
+.text-center {
+	font-weight: bolder;
+}
+
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.10);
+	min-height: 110vh;
+} 
+
+.singleCol {
+	max-width: 800px;
+	color: white;
+}
+
+.nav-link {
+	font-size: 20px;
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+}
+
+.card {
+	transition: transform 0.3s, border 0.3s, background 0.3s;
+}
+.card:hover {
+	transform: scale(1.1);
+}
+
+.row {
+	color: white;
+}
+
+footer {
+	background-color: #3a3a3a;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #dfdfdf;
+}
+
+@media (max-width: 767.98px){
+	.color-overlay {
+		min-height: 30vh;
+	}
+}
